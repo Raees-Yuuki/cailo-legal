@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cailo · Privacy Policy</title>
+<style>
+:root{--bg:#f2f2f7;--card:#fff;--text:#1c1c1e;--muted:#636366;--line:#d1d1d6;--accent:#0a66d8}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--card:#1c1c1e;--text:#f2f2f7;--muted:#8e8e93;--line:#3a3a3c;--accent:#64a8ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+nav{font-size:14px;margin-bottom:16px}
+nav a{color:var(--accent);text-decoration:none;margin-right:16px}
+h1{font-size:28px;line-height:1.25;margin:0 0 4px}
+.updated{color:var(--muted);font-size:14px;margin:0 0 12px}
+.intro{margin:0 0 16px}
+.glance{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0 0 24px}
+.glance li{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin:0 0 14px}
+h2{font-size:18px;margin:0 0 8px}
+p{margin:0 0 10px}
+ul{margin:0 0 10px;padding-left:20px}
+li{margin:0 0 6px}
+a{color:var(--accent);overflow-wrap:anywhere}
+footer{color:var(--muted);font-size:13px;text-align:center;margin-top:24px}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Disclaimer</a></nav>
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated · TODO(owner): effective date</p>
+<p class="intro"><strong>Your privacy, respected</strong></p>
+<p class="intro">Cailo is built to work almost entirely on your device. No account, no ads, no tracking — just your calculators.</p>
+<ul class="glance"><li>No ads or trackers</li><li>Works offline</li><li>No account needed</li><li>Data stays on device</li></ul>
+<section><h2>What stays on your device</h2>
+<p>Everything you type and every preference you set is stored only on this device — never on our servers:</p>
+<ul>
+<li>Your calculation history (the expressions and results you compute), kept per calculator and limited to the 50 most recent entries each.</li>
+<li>Your notes — their text, checklists, folders, colours and reminder times, and any photos you add to them. A photo you add is copied into the app’s private storage; the original stays where it was. Notes you delete wait in Trash for 30 days; after that they are erased the next time you open Notes.</li>
+<li>Your settings — theme mode, accent colour, palette, Material You and OLED options, background style, number format, your favourite calculators, and the Fuel Cost currency and efficiency unit.</li>
+<li>The last values you entered in calculators that remember them — for example a date of birth in the Age calculator — so they are still there next time.</li>
+<li>Your currency preferences — which currencies you have starred and which you have hidden from the picker.</li>
+<li>A cached copy of currency exchange rates, so the converter keeps working offline.</li>
+</ul>
+<p>This information stays on your device unless you choose to send it somewhere yourself — for example by sharing a result through your phone’s share sheet, or by saving a backup file to a location you pick. You can erase it any time — see “Your controls” below.</p>
+</section>
+<section><h2>What we don&#x27;t collect</h2>
+<p>We have no user accounts and keep no profile of you. We do not collect, store on our servers, or sell:</p>
+<ul>
+<li>Your name, email, phone number, or contacts.</li>
+<li>Your precise location.</li>
+<li>The values, results, or history of your calculations.</li>
+<li>Advertising identifiers or any cross-app tracking data.</li>
+</ul>
+<p>Cailo contains no advertising, no analytics, and no third-party tracking SDKs.</p>
+</section>
+<section><h2>When the app goes online</h2>
+<p>Most calculators work fully offline. The app reaches the internet only in these cases:</p>
+<ul>
+<li>Exchange rates — the Currency converter asks our own service for the latest rates. It makes one request, and it always asks for the same US-dollar rate table (“USD”). The currencies you pick, your amounts and any device identifier are never sent. Our service fetches the rate table from ExchangeRate-API on its own and caches it, so your device never contacts that provider directly.</li>
+<li>Starting currency — the Currency converter suggests a starting currency from your phone’s region setting. This happens on your device; nothing is sent anywhere for it.</li>
+</ul>
+<p>That is the full extent of the app’s network use. Every other calculator works entirely offline, and the app’s typefaces are bundled inside it rather than downloaded.</p>
+<p>As with any internet request, the servers involved receive your device&#x27;s IP address and standard request details, which they may log under their own policies.</p>
+</section>
+<section><h2>Third-party services</h2>
+<p>The limited network features above rely on these providers. Their handling of data is governed by their own policies:</p>
+<p><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare — hosts our rates service</a></p>
+<p><a href="https://www.exchangerate-api.com">ExchangeRate-API — upstream rate data</a></p>
+</section>
+<section><h2>Permissions</h2>
+<p>Cailo declares these Android permissions:</p>
+<ul>
+<li>Internet and network state — used only for the exchange-rate request described above; network state lets the converter tell whether you are online.</li>
+<li>Notifications, run at startup and vibrate — used only for reminders you set on a note: to show the reminder, to keep it scheduled after your phone restarts, and to vibrate the way notifications normally do. Android asks you before the first reminder can be shown, and you can turn notifications off at any time in your phone’s settings.</li>
+</ul>
+<p>It does not request access to your location, camera, microphone, contacts, photos, or storage.</p>
+<p>When you choose where to save a backup, or pick a backup file to restore, the app uses your system’s own picker. You choose the single file involved, and the app never gains browsing access to the rest of your storage.</p>
+<p>When you add a photo to a note, the app uses your system’s own photo picker. You choose the single photo involved, and the app never gains access to the rest of your photos.</p>
+<p>If your device supports Material You, the app can read the colour palette your system derives from your wallpaper so it can match your theme. It reads colours only — not the image — and nothing is sent anywhere.</p>
+</section>
+<section><h2>Your controls</h2>
+<ul>
+<li>Clear your history any time from Settings → Data → Clear All History.</li>
+<li>Avoid all network use by simply not opening the Currency converter — every other calculator works offline.</li>
+<li>Export a copy of your settings, history and notes (with their photos) from Settings → Backup, or bring them back with Restore. Restoring adds the backup’s notes to the ones already here, keeping the newer copy of any note that is in both. The backup file goes wherever you choose to save it, and from that point you are in control of it.</li>
+<li>Delete a note by moving it to Trash; it is erased for good the first time you open Notes after 30 days, or at once when you empty Trash.</li>
+<li>Remove everything stored locally by clearing the app&#x27;s data in your device settings, or by uninstalling the app. Uninstalling removes all of it; the app is excluded from Android auto-backup, so nothing is kept in the cloud on your behalf.</li>
+</ul>
+</section>
+<section><h2>Security &amp; children</h2>
+<p>Your data lives in the app&#x27;s private storage on your device, and all network requests use encrypted HTTPS. Because we keep your data on your device and collect no personal information, your exposure is minimal — though no system can be guaranteed 100% secure.</p>
+<p>Cailo is a general-purpose utility, not directed to children, and we do not knowingly collect personal information from children.</p>
+</section>
+<section><h2>Changes &amp; contact</h2>
+<p>Cailo is published by TODO(owner): legal entity / publisher name. We may update this policy as the app evolves; the date above will change when we do. For any questions about your privacy, reach us at:</p>
+<p><a href="mailto:cs.cailo234@gmail.com">cs.cailo234@gmail.com</a></p>
+</section>
+<footer>The same text is in the app: Settings › Legal.</footer>
+</main>
+</body>
+</html>
